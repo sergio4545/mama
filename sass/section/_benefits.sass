@@ -1,0 +1,37 @@
+.benefits
+    min-height: 590px
+    padding: 55px 0 50px 0
+    background-color: #f3f3f3
+    &__h2
+        color: #2e2e2e
+        font-size: 26px
+        font-weight: 700
+        text-align: center
+        text-transform: uppercase
+    &__block
+        display: grid
+        margin-top: 30px
+        grid-template-columns: minmax(100px, 570px) minmax(100px, 570px)
+        grid-template-rows: minmax(62px, auto) minmax(62px, auto) minmax(62px, auto) minmax(62px, auto)
+        gap: 36px 99px
+        &_subblock
+            display: grid
+            grid-template-columns: 60px auto
+            grid-template-rows: minmax(62px, auto)
+            column-gap: 17px
+            span
+                display: block
+                margin-bottom: -10px 
+                color: #ec644b
+                font-size: 16px
+                font-weight: 700
+        &_img
+            width: 60px
+            img
+                margin-top: 5px
+        &_descr
+            max-width: 100%
+            color: #3a3a3a
+            font-size: 14px
+            font-weight: 300
+            line-height: 18px

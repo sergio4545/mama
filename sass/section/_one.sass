@@ -1,0 +1,171 @@
+.one
+    min-height: 680px
+    padding: 23px 0 82px 0
+    background: url(../jpg/background_plane.jpg) center center/cover no-repeat
+    &__header
+        width: 100%
+        min-height: 100px
+        display: flex
+        flex-direction: row
+    &__nav
+        width: 650px
+        ul
+            display: flex
+            margin-top: 37px
+            margin-left: 55px
+            justify-content: space-between
+            list-style-type: none
+            li
+                border-right: 1px  dotted rgba(255, 255, 255, 0.4)
+                &:nth-child(6)
+                    border-right: none
+                    a
+                        margin-right: 0
+            a
+                color: #ffffff
+                font-size: 15px
+                font-weight: 400
+                text-align: left
+                margin-right: 12px
+                &:hover
+                    color: #ec644b
+                    border-bottom: 1px solid #ec644b
+                                   
+    &__logo
+        width: 96px
+        height: 100px
+    &__tel
+        width: 165px
+        margin-top: 25px
+        margin-left: 50px
+        &_discr
+            color: #ffffff
+            font-size: 14px
+            font-weight: 300
+            text-align: right
+        &_phone
+            font-size: 19px
+            font-weight: 700
+            text-align: right
+            a
+                color: #ffffff
+    &__tel_btn
+        margin-top: 21px
+        margin-left: 19px
+    &__hamburger
+        display: none
+        position: absolute
+        right: 30px
+        top: 20px
+        width: 40px
+        height: 20px
+        span
+            display: block
+            margin-top: 4px
+            width: 100%
+            height: 2px
+            background-color: #ec644b
+            transition: 0.5s all
+        &_active
+            span
+                margin-top: 10px
+                &:nth-child(1)
+                    transform: translateY(15px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+                        
+
+    &__h2
+        margin-top: 9px
+        color: #ffffff
+        font-size: 24px
+        font-weight: 300
+        line-height: 20px
+        text-align: center
+
+    &__h1
+        margin-top: 26px
+        color: #ec644b
+        font-size: 62px
+        font-weight: 700
+        line-height: 53px
+        text-align: center
+        text-transform: uppercase
+    &__title
+        margin-top: 9px
+        color: #ffffff
+        font-size: 36px
+        font-weight: 400
+        line-height: 41px
+        text-align: center
+        text-transform: uppercase
+    
+    &__line
+        display: flex
+        position: relative
+        width: 810px
+        margin: 0 auto
+        margin-top: 40px
+        justify-content: space-between
+        &_one
+            width: 388px
+            height: 1px
+            background-color: #ffffff
+        &_colo
+            position: absolute
+            width: 32px
+            height: 10px
+            border-radius: 100%
+            top: -4px
+            left: 50%
+            transform: translateX(-50%)
+            .colo
+                width: 10px
+                height: 10px
+                margin: 0 auto
+                border-radius: 100%
+                background-color: white
+
+    &__benefits
+        display: grid
+        margin-top: 25px
+        grid-template-columns: 24% 24% 24% 24%
+        grid-template-rows: minmax(135px, auto)
+        column-gap: 20px
+        &_jpg  
+            margin: 0 auto
+            width: 70px
+            height: 63px
+        &_descr
+            color: #ffffff
+            margin-top: 10px
+            font-size: 16px
+            font-weight: 300
+            line-height: 20px
+            text-align: center
+
+    &__btn
+        display: block
+        width: 230px
+        height: 57px
+        margin: 0 auto
+        margin-top: 35px
+        background-color: #ec644b
+        border-radius: 25px
+        color: #ffffff
+        font-size: 15px
+        font-weight: 700
+        line-height: 56px
+        text-align: center
+        text-transform: uppercase
+        cursor: pointer
+        transition: 0.8s
+        &:hover
+            transition: 0.8s
+            color: #ec644b
+            background-color: #ffffff
+                
+
+

@@ -1,0 +1,55 @@
+.questions
+    padding: 60px 0 80px 0
+    min-height: 440px
+    background: url(../jpg/plane.jpg) center center/cover no-repeat
+    &__block
+        width: 900px
+        min-height: 300px
+        margin: 0 auto
+        &_subblock
+            padding-top: 20px
+            width: 100%
+            height: 90px
+            background-color: #25333c
+        &_h2
+            color: #ffffff
+            font-size: 19px
+            font-weight: 700
+            text-align: center
+            text-transform: uppercase
+        &_title
+            color: #ffffff
+            font-size: 14px
+            font-weight: 400
+            text-align: center
+            text-transform: uppercase
+    &__form
+        padding: 18px 0 25px 0
+        position: relative
+        width: 100%
+        min-height: 230px
+        display: grid
+        background-color: rgba(255, 255, 255, 0.7)
+        grid-template-columns: repeat(3, 268px)
+        grid-template-rows: 45px 73px
+        justify-content: center
+        gap: 6px 8px
+        .border-30
+            border-radius: 30px
+            padding: 0 30px 0 30px 
+        .name
+            grid-area: 1/1/2/2
+        .phone
+            grid-area: 1/2/2/3
+        .poshta
+            grid-area: 1/3/2/4
+        .meseng
+            resize: none
+            grid-area: 2/1/3/4
+            border-radius: 10px
+            padding-left: 30px
+    &__btn
+        position: absolute
+        bottom: 25px
+        left: 50%
+        transform: translateX(-50%)
